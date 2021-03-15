@@ -1,0 +1,172 @@
+ /* start  */
+@media(min-width: 521px) and (max-width: 767px){
+
+    .containner{
+        width: 530px;
+    }
+   
+    .con-svg{
+        height: 50%;
+        width: 100%;
+    }
+    .containner::before{
+        position: absolute;
+        right: -145%;
+        top: -135%;
+    }
+
+    .con-svg{
+        height: 50%;
+        width: 100%;
+    }
+    .con-svg h1{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+    .con-svg p{
+        width: 98%;
+        margin: 8px 0;
+        font-size: 17px;
+    }
+    .con-svg button,
+    .formContainner .submit{
+        width: 45%;
+    }
+    .con-svg .svg{
+        display: none;
+    }
+
+    .formContainner{
+        width: 96%;
+    }
+    .logRight{
+        position: absolute;
+        left: 2%;
+        top: 50%;
+    }
+    .formContainner h1{
+        margin: 20% 0 0 0;
+    }
+    /* --------- */
+    .containner.active::before {
+        position: absolute;
+        right: 320%;
+        top: 215%;
+        transform: translate(110%, -50%);
+    }
+    .formContainner.trans {
+        height: 60%;
+        transform: translateY(-25%);
+    }
+    .logLeft {
+        position: absolute;
+        right: 2%;
+        top: 12%;
+    }
+    .formContainner .logLeft  h1{
+        margin: 10% 0 0 0;
+    }
+    .con-svg.floatRight{
+        position: absolute;
+        top: 70%;
+        height: 25%;
+    }
+    .con-svg.floatRight p{
+        width: 95%;
+    }
+}
+/* end  */
+
+/* start  */
+@media(min-width: 768px) and (max-width: 991px){
+
+   
+    .containner{
+        width: 751px;
+    }
+	
+	 .containner::before{
+        position: absolute;
+        right: -70%;
+        top: -130%;
+    }
+
+      .containner.active::before{
+        position: absolute;
+        top: 221%;
+        right: 200%;
+    }
+
+    .floatLeft {
+        position: static;
+    } 
+
+    .con-svg{
+        height: 50%;
+        width: 100%;
+    }
+    .con-svg h1{
+        width: 60%;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+    .con-svg p{
+        width: 60%;
+        margin: 0;
+        font-size: 17px;
+    }
+    .con-svg button{
+        width: 20%;
+        margin: 5px 0 0 20%;
+    }
+    .con-svg .svg{
+        width: 33%;
+        height: 50%;
+        position: absolute;
+        right: 0;
+        top: 17px;
+    }
+
+    .formContainner{
+        width: 96%;
+    }
+    .logRight{
+        position: absolute;
+        left: 2%;
+        top: 50%;
+    }
+    .formContainner h1{
+        margin: 20% 0 0 0;
+    }
+    /* ---------- */
+    .containner.active::before {
+        position: absolute;
+        top: 206%;
+        right: 200%;
+    }
+    .formContainner {
+        width: 100%;
+        /* background: aqua; */
+    }
+    .logLeft {
+        position: absolute;
+        right: 0%;
+        top: 0;       
+    }    
+    .logLeft {
+        position: absolute;
+        right: 0%;
+        top: 25px;
+    }
+    .con-svg.trans{
+        transform: translate(0px, 394px);
+        height: 40%;
+    }
+    .con-svg .svg.trans{
+        width: 50%;
+        height: 70%;
+    }
+
+}
+/* end  */
